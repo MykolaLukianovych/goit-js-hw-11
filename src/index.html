@@ -12,13 +12,18 @@
       <form class="search-form">
         <input
           type="text"
+          name="query"
           class="search-input"
           placeholder="Search images..."
         />
         <button class="search-btn">Search</button>
       </form>
+      <span class="loader" style="display: none"></span>
+      <ul class="gallery"></ul>
     </main>
 
     <script type="module" src="./main.js"></script>
   </body>
 </html>
+<div class="loader" style="display: none">Loading...</div>
+<div class="gallery"></div>
