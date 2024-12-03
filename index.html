@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-DdbKkmqb.css">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-5ObWk2rO.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-CLLGogDT.css">
   </head>
   <body>
     <main>
       <form class="search-form">
         <input
           type="text"
+          name="query"
           class="search-input"
           placeholder="Search images..."
         />
         <button class="search-btn">Search</button>
       </form>
+      <span class="loader" style="display: none"></span>
+      <ul class="gallery"></ul>
     </main>
 
   </body>
 </html>
+<div class="loader" style="display: none">Loading...</div>
+<div class="gallery"></div>
