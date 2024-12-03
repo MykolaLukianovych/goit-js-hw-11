@@ -1,8 +1,5 @@
 
-
 export default getPictures;
-
-
 
 function getPictures(query) {
     const BASE_URL = "https://pixabay.com/api/";
